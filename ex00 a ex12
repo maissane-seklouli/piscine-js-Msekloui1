@@ -1,0 +1,209 @@
+============Exo00
+
+ 
+
+function substract(nb1,nb2){
+
+  return nb1-nb2
+
+}
+
+ 
+
+============Exo01
+
+ 
+
+function add(nb1,nb2){
+
+    return nb1+nb2
+
+}
+
+============Exo02
+
+ 
+
+function multiply (nb1,nb2) {
+
+return nb1*nb2
+
+}
+
+============Exo03
+
+ 
+
+function divide (a,b){
+
+  if (b===0){
+
+    return("Forbidden")
+
+} else {
+
+    return a/b;
+
+  }  
+
+} 
+
+ 
+
+============Exo04
+
+function modulo (nb1,nb2){
+
+  return nb1%nb2
+
+  }
+
+ 
+
+============Exo05
+
+for (let i = 0; i<=10; i=i+1) {
+
+  console.log(i);
+
+}
+
+ 
+
+ 
+
+============Exo06
+
+for (let i = 2; i<=100; i=i+2) {
+
+  console.log(i);
+
+}
+
+ 
+
+============Exo07
+
+console.log("Hello user!")
+
+let name= prompt("How are you today? What's your name?")
+
+console.log("Have a nice day" + name + "!")
+
+ 
+
+ 
+
+============Exo08
+
+ 
+
+console.log("Welcome to my secret diary !")
+
+ 
+
+const name = prompt("What's your name ?");
+
+ 
+
+if (name === "David") {
+
+  console.log("I really wanna stay at your house, and i hope this works out");
+
+} else {
+
+  console.log("Get away !");
+
+}
+
+ 
+
+============Exo09
+
+ 
+
+function choomChoom(a){
+
+if (a%2==0) {
+
+  return 'Choom';
+
+} else {
+
+  return 'ChoomChoom'
+
+}
+
+}
+
+ 
+
+============Exo10
+
+function cyberNumber (a){
+
+  if (a%3==0 && a%5==0){
+
+    return 'CyberPunk2077';
+
+  } if (a%3==0){
+
+    return "Cyber";
+
+  } if (a%5==0){
+
+    return "Punk";
+
+  }
+
+   else {
+
+   return 0;
+
+  }
+
+}
+
+============Exo11
+
+ 
+
+function bissextile (year){
+
+  if(year%4==0 && year%100!=0 || year%400==0 ){
+
+    console.log("toto");
+
+    return 0;
+
+  } else {
+
+    console.log("bibi");
+
+    return 1;
+
+  }
+
+}
+
+ 
+
+============Exo12
+
+function toto(a,b){
+
+  console.log(((a+b)*b)/2);
+
+  return ((a+b)*b)/2
+
+}
+
+ 
+
+module.exports = {
+
+  toto
+
+}
+
+ 
